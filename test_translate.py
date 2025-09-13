@@ -7,25 +7,9 @@ from api import Translate, translate
 
 
 # Mock response data
-mock_response_fa_en = {
-    "result": {
-        "tr": {
-            "base": [
-                [0, "Hello"]
-            ]
-        }
-    }
-}
+mock_response_fa_en = {"result": {"tr": {"base": [[0, "Hello"]]}}}
 
-mock_response_en_fa = {
-    "result": {
-        "tr": {
-            "base": [
-                [0, "سلام"]
-            ]
-        }
-    }
-}
+mock_response_en_fa = {"result": {"tr": {"base": [[0, "سلام"]]}}}
 
 
 @patch("requests.post")
