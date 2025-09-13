@@ -1,9 +1,7 @@
-import pytest
-import requests
 from unittest.mock import patch
 import json
 
-from api import Translate, translate
+from api import Translate
 
 
 # Mock response data
